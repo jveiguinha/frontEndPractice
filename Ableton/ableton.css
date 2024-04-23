@@ -1,0 +1,68 @@
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mainDiv {
+    margin: auto;
+    width: 84.4%;
+    margin-top: -.5em;
+}
+#abletonLogo {
+    width: 3.75em;
+    height: 1.75em;
+    cursor: pointer;
+    margin: 1.15em 0 0 2.5em;
+    float: left;
+}
+.mainBlocks {
+    min-height: 4em;
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: .1em;
+    display: flex;
+    flex-direction: column;
+}
+.mainBlocks h3, .mainBlocks h5 {
+    float: left;
+    margin-left: 2em;
+    font-weight: 500;
+    cursor: pointer;
+}
+.mainBlocks h5 {
+    margin-left: 3em;
+    font-weight: 600;
+}
+.orangeText, h1{
+    color: #ff764d;
+}
+#headerBlueButton {
+    margin-left: 26em;
+    color: #0000ff;
+}
+/*#mainImage {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 84%;
+}*/
+.textLocationDiv {
+    background-color: pink;
+}
+.mainImageDiv {
+    width: 83%;
+    height: 83vh;
+    margin: auto;
+    background-image: url("Images/mainImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    /*position: absolute;
+    top: 42%;
+    left: 38.8%;
+    this area above is supposed to be comented too
+    */
+
+    text-align: center;
+    font-size: 7.4em;
+}
