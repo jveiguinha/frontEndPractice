@@ -35,34 +35,45 @@ body {
 .orangeText, h1{
     color: #ff764d;
 }
+.blueText {
+    color: #0000ff;
+}
 #headerBlueButton {
     margin-left: 26em;
     color: #0000ff;
 }
-/*#mainImage {
-    display: block;
-    margin: 0 auto 0 auto;
-    width: 84%;
-}*/
 .textLocationDiv {
-    background-color: pink;
+    width: 50%;
+    margin: auto;
 }
 .mainImageDiv {
     width: 83%;
     height: 83vh;
-    margin: auto;
+    margin: auto auto 2em auto;
     background-image: url("Images/mainImage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.8em;
 }
-h1 {
-    /*position: absolute;
-    top: 42%;
-    left: 38.8%;
-    this area above is supposed to be comented too
-    */
+h2 {
+    font-size: 1.5em;
+}
+.mainParagraphs {
+    color: rgb(75, 75, 75);
+}
+.mainParagraphs, h2 {
+    letter-spacing: .04em;
+    line-height: 1.8em;
+}
 
-    text-align: center;
-    font-size: 7.4em;
+
+
+
+
+#someSpaceAtTheEnd {
+    margin-top: 900px;
 }
