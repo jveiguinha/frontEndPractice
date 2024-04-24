@@ -46,17 +46,23 @@ body {
     width: 50%;
     margin: auto;
 }
-.mainImageDiv {
+.largestImgDiv {
     height: 83vh;
-    background-image: url("Images/mainImage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.largestImg1 {
+    background-image: url("Images/largestImg1.jpg");
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 3.8em;
 }
+.largestImg2 {
+    background-image: url("Images/largestImg2.jpg");
+}
+
 h2 {
     font-size: 1.5em;
 }
@@ -81,6 +87,26 @@ h2 {
     display: flex;
     align-items: center;
 }
+.montageDiv3 {
+    width: 100%;
+    height: 48vw;
+    background-image: linear-gradient(to right, transparent 17%, #d5b3ff 17%, #d5b3ff 83%, transparent 17%);
+    display: flex;
+    align-items: center;
+}
+.jobsDiv {
+    width: 100%;
+    background-color: #b1c5ff;
+    display: flex;
+}
+.jobsImg {
+    width: 35vw;
+    height: 35vw;
+    background-image: url("Images/jobsImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
 .mtg1img1 {
     background-image: url("Images/mtg1img1.jpg");
 }
@@ -95,6 +121,12 @@ h2 {
 }
 .mtg2img3 {
     background-image: url("Images/mtg2img3.jpg");
+}
+.mtg3img1 {
+    background-image: url("Images/mtg3img1.jpg");
+}
+.mtg3img2 {
+    background-image: url("Images/mtg3img2.jpg");
 }
 .imgSize1 {
     width: 35vw;
@@ -125,6 +157,9 @@ h2 {
 .montageDiv2 .imgSize1 {
     margin-left: auto;
 }
+.montageDiv3 .imgSize1 {
+    margin-left: auto;
+}
 #abletonVideo {
     margin: 7em auto 1em auto;
     width: 50%;
@@ -152,6 +187,67 @@ h2 {
 }
 .spacing {
     height: 7em;
+}
+.footer {
+    background-color: #fff;
+    width: 77.1%;
+    display: flex;
+    padding-left: 7.3%;
+    margin-left: 7.8%;
+}
+.footer div{
+    width: 22%;
+    height: 160px;
+    margin: 1.5em;
+}
+.footer div.socialMedia{
+    width: 100%;
+    height: 36px;
+    margin: 0;
+}
+.footer h2 {
+    margin: 2.5em 0 0 .5em;
+    font-size: 3.2em;
+}
+.footer .footerSignUpDiv {
+    width: 34%;
+}
+.footer .mainParagraphs {
+    letter-spacing: .04em;
+    line-height: 1em;
+    color: black;
+}
+.footerTitles {
+    font-weight: 600;
+}
+.socialMedia {
+    background-color: lightblue;
+    display: flex;
+}
+.facebookLogo {
+    background-color: lightpink;
+    width: 36px;
+    height: 36px;
+}
+.xLogo {
+    background-color: lightpink;
+    width: 36px;
+    height: 36px;
+}
+.youtubeLogo {
+    background-color: lightpink;
+    width: 36px;
+    height: 36px;
+}
+.instagramLogo {
+    background-color: lightpink;
+    width: 36px;
+    height: 36px;
+}
+.tiktokLogo {
+    background-color: lightpink;
+    width: 36px;
+    height: 36px;
 }
 
 
