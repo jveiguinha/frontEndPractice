@@ -48,7 +48,6 @@ body {
 }
 .mainImageDiv {
     height: 83vh;
-    margin-bottom: 2em;
     background-image: url("Images/mainImage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,19 +68,33 @@ h2 {
     line-height: 1.8em;
 }
 .montageDiv1 {
-    margin-top: 7em;
-    margin-bottom: 7em;
     width: 100%;
     height: 48vw;
     background-image: linear-gradient(to left, #fbffa7 48vw, transparent 50%);
     display: flex;
     align-items: center;
 }
-.imgLaunchPad {
-    background-image: url("Images/imgLaunchPad.jpg");
+.montageDiv2 {
+    width: 100%;
+    height: 63vw;
+    background-image: linear-gradient(to right, #b6ffc0 49vw, transparent 50%);
+    display: flex;
+    align-items: center;
 }
-.imgPersonWalking {
-    background-image: url("Images/imgPersonWalking.jpg");
+.mtg1img1 {
+    background-image: url("Images/mtg1img1.jpg");
+}
+.mtg1img2 {
+    background-image: url("Images/mtg1img2.jpg");
+}
+.mtg2img1 {
+    background-image: url("Images/mtg2img1.jpg");
+}
+.mtg2img2 {
+    background-image: url("Images/mtg2img2.jpg");
+}
+.mtg2img3 {
+    background-image: url("Images/mtg2img3.jpg");
 }
 .imgSize1 {
     width: 35vw;
@@ -103,10 +116,17 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+.montageDiv1 .imgSize2 {
+    margin-left: auto;
+}
+.montageDiv2 .imgSize1 {
     margin-left: auto;
 }
 #abletonVideo {
-    margin: 7em auto 7em auto;
+    margin: 7em auto 1em auto;
     width: 50%;
     height: 23vw;
     display: flex;
@@ -130,7 +150,9 @@ h2 {
 .hidden {
     display: none;
 }
-
+.spacing {
+    height: 7em;
+}
 
 
 
