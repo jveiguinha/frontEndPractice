@@ -2,7 +2,7 @@ body {
     background-color: #f3f3f3;
     font-family: Arial, Helvetica, sans-serif;
 }
-#mainDiv {
+.mainDiv {
     margin: auto;
     width: 84.4%;
     margin-top: -.5em;
@@ -187,6 +187,7 @@ h2 {
 }
 .spacing {
     height: 7em;
+    background-color: #fff;
 }
 .footer {
     background-color: #fff;
@@ -216,49 +217,95 @@ h2 {
     font-weight: 600;
 }
 .socialMedia {
-    background-color: lightblue;
     display: flex;
 }
 .footer div.socialMedia{
     width: 100%;
-    height: 36px;
+    height: 32px;
     margin: 0;
 }
 .footer div.socialMedia div{
-    width: 36px;
-    height: 36px;
-    margin: 0 .2em 0 0;
+    width: 30px;
+    height: 30px;
+    margin: 0 1em 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .facebookLogo {
-    background-color: lightpink;
-    width: 36px;
-    height: 36px;
+    background-image: url("Images/facebookLogo.png");
+    
 }
 .xLogo {
-    background-color: lightpink;
-    width: 36px;
-    height: 36px;
+    background-image: url("Images/xLogo.png");
+    
 }
 .youtubeLogo {
-    background-color: lightpink;
-    width: 36px;
-    height: 36px;
+    background-image: url("Images/youtubeLogo.png");
+    
 }
 .instagramLogo {
-    background-color: lightpink;
-    width: 36px;
-    height: 36px;
+    background-image: url("Images/instagramLogo.png");
+    
 }
 .tiktokLogo {
-    background-color: lightpink;
-    width: 36px;
-    height: 36px;
+    background-image: url("Images/tiktokLogo.png");
 }
-
-
-
-
-
-#someSpaceAtTheEnd {
-    margin-top: 900px;
+#emailInput {
+    width: 78%;
+    height: 38px;
+    margin: 0;
+    padding-left: .8em;
+    border: none;
+    background-color: #e3eaff;
+    font-size: 1em;
+}
+#emailButton {
+    width: 22%;
+    height: 40px;
+    margin: 0;
+    background-color: #0000ff;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+#emailDiv {
+    width: 100%;
+    height: 2.8em;
+    display: flex;
+    align-items: center;
+    margin: 2em 0 0 0;
+}
+.selects {
+    background-color: #f3f3f3;
+    border: none;
+    height: 30px;
+    padding-left: .5em;
+}
+#languageSelect {
+    width: 37%;
+}
+#countrySelect {
+    width: 60%;
+}
+.footerBar {
+    width: 78%;
+    height: 30px;
+    display: flex;
+    padding-left: 9.5em;
+    margin-top: -4em;
+    align-items: center;
+}
+h6 {
+    margin: .8em;
+    font-size: .7em;
+}
+.footerFloatRight {
+    margin-left: auto;
+    margin-right: 1.5em;
+}
+.footerLogo {
+    height: 20px;
 }

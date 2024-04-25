@@ -8,7 +8,7 @@
     <title>Ableton</title>
 </head>
 <body>
-    <div id="mainDiv">
+    <div class="mainDiv">
         <div class="mainBlocks">
             <div>
                 <img id="abletonLogo" src="Images/logo.png">
@@ -143,13 +143,6 @@
 
         </div>
 
-
-
-        
-
-
-
-
     </div>
 
 
@@ -180,6 +173,10 @@
         <div class="footerSignUpDiv">
             <p class="mainParagraphs footerTitles">Sign up to our newsletter</p>
             <p class="mainParagraphs">Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</p>
+            <div id="emailDiv">
+                <input id="emailInput" type="text" placeholder="Email Address">
+                <button id="emailButton" type="button">Sign in</button>
+            </div>
         </div>
     </div>
     <div class="footer">
@@ -191,16 +188,44 @@
         </div>
         <div class="footerLanguageDiv">
             <p class="mainParagraphs footerTitles">Language and Location</p>
+
+            <select name="language" id="languageSelect" class="selects">
+                <option value="english">English</option>
+                <option value="deutsh">Deutsh</option>
+                <option value="french">Français</option>
+                <option value="japanese">日本語</option>
+                <option value="chinese">中国人</option>
+                <option value="spanish">Español</option>
+            </select>
+            <select name="country" id="countrySelect" class="selects">
+                <option value="england">England</option>
+                <option value="deutshland">Deutshland</option>
+                <option value="france">France</option>
+                <option value="japan">Japan</option>
+                <option value="china">China</option>
+                <option value="spain">Spain</option>
+            </select>
         </div>
     </div>
 
 
+    <div class="mainDiv">
+        <div class="spacing"></div>
+        <div class="footerBar">
+            <h6>Contact Us</h6>
+            <h6>Press Resources</h6>
+            <h6>Legal Info</h6>
+            <h6>Privacy Policy</h6>
+            <h6>Cookie Settings</h6>
+            <h6>Imprint</h6>
+            <h6 class="footerFloatRight">Made in Berlin</h6>
+            <img class="footerLogo"  src="Images/logo.png">
+        </div>
+    </div>
 
 
-
-
-    <div id="someSpaceAtTheEnd">
-
+    <div class="footer">
+        <div class="spacing"></div>
     </div>
 </body>
 </html>
